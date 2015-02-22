@@ -27,7 +27,7 @@ nl:
         base:
         cc_type: Type
         month: Maand
-        name:
+        name: Naam
         number: Nummer
         verification_value: Veiligheidscode
         year: Jaar
@@ -42,7 +42,7 @@ nl:
       spree/order:
         checkout_complete: Bestelling afgerond
         completed_at: Voltooid op
-        considered_risky:
+        considered_risky: Risico
         coupon_code: Kortingscode
         created_at: Besteldatum
         email: Klant e-mail
@@ -408,7 +408,7 @@ nl:
     all: Alle
     all_adjustments_closed: Alle aanpassingen succesvol gesloten!
     all_adjustments_opened: Alle aanpassingen succesvol geopend
-    all_departments: Alle afdelingen
+    all_departments: Alles
     all_items_have_been_returned:
     allow_ssl_in_development_and_test: Sta toe SSL te gebruiken in ontwikkel en test modus
     allow_ssl_in_production: Sta toe SSL te gebruiken in productie modus
@@ -425,23 +425,23 @@ nl:
     analytics_desc_list_4: Het is volledig gratis
     analytics_trackers: Analytics trackers
     and: en
-    approve:
+    approve: Goedkeuren
     approved_at: Goedgekeurd op
     approver: Door
     are_you_sure: Weet je het zeker
     are_you_sure_delete: Wilt je dit record echt verwijderen?
     associated_adjustment_closed: De bijbehorende aanpassing is gesloten, en wordt niet herberekend. Wil je de aanpassing openen?
     authorization_failure: Autorisatie mislukt
-    authorized:
+    authorized: Geauthorizeerd
     auto_capture:
     available_on: Beschikbaar op
-    average_order_value:
+    average_order_value: Gemiddelde bestelwaarde
     avs_response:
     back: Terug
     back_end: Backend
-    back_to_payment:
+    back_to_payment: Terug naar betaling
     back_to_resource_list:
-    back_to_rma_reason_list:
+    back_to_rma_reason_list: Terug naar RMA reden lijst
     back_to_store: Verder winkelen
     back_to_users_list: Terug naar gebruikers lijst
     backorderable: Nabestelbaar
@@ -449,8 +449,8 @@ nl:
     backordered: Nabestelling
     backorders_allowed: Nabestellingen toegestaan
     balance_due: Te betalen
-    base_amount:
-    base_percent:
+    base_amount: Netto bedrag
+    base_percent: Netto percentage
     bill_address: Factuuradres
     billing: Factuur
     billing_address: Factuuradres
@@ -459,9 +459,9 @@ nl:
     calculator: Calculator
     calculator_settings_warning: Als je de calculator verandert, dien je eerst op te slaan voordat je de calculator instellingen kan wijzigen
     cancel: Annuleer
-    canceled_at:
-    canceler:
-    cannot_create_customer_returns:
+    canceled_at: Geannuleerd op
+    canceler: Geannuleerd door
+    cannot_create_customer_returns: Kan geen retour aanmaken
     cannot_create_payment_without_payment_methods: Je kunt geen betaling aanmaken voor een bestelling als er geen betaalmethodes gedefinieerd zijn.
     cannot_create_returns: Kan geen retour aanmaken aangezien de bestelling nog niet is verstuurd
     cannot_perform_operation: Kan deze opdracht niet uitvoeren
@@ -470,10 +470,10 @@ nl:
     capture_events:
     card_code: Kaartcode
     card_number: Kaartnummer
-    card_type:
+    card_type: Kaarttype
     card_type_is: Kaarttype is
     cart: Winkelwagen
-    cart_subtotal:
+    cart_subtotal: Winkelwagen sub totaal
     categories: Categorieën
     category: Categorie
     charged:
@@ -529,7 +529,7 @@ nl:
     coupon_code_unknown_error:
     create: Aanmaken
     create_a_new_account: Maak een nieuwe account aan
-    create_new_order:
+    create_new_order: Nieuwe bestelling aanmaken
     create_reimbursement:
     created_at: Aangemaakt op
     credit: Krediet
@@ -547,8 +547,8 @@ nl:
     customer: Klant
     customer_details: Klant details
     customer_details_updated: Klant details bijgewerkt
-    customer_return:
-    customer_returns:
+    customer_return: Klant retour
+    customer_returns: Klant retouren
     customer_search: Klant zoeken
     cut: Knippen
     cvv_response:
@@ -691,8 +691,8 @@ nl:
     images: Afbeeldingen
     implement_eligible_for_return:
     implement_requires_manual_intervention:
-    inactive:
-    incl:
+    inactive: Inactief
+    incl: Inclusief
     included_in_price: Inbegrepen in prijs
     included_price_validation: kan niet worden gekozen tenzij je een standaardbelastingszone hebt ingesteld.
     incomplete:
@@ -704,7 +704,7 @@ nl:
     intercept_email_address: E-mailadres opvangen
     intercept_email_instructions: Ontvanger van de e-mail overschrijven met dit e-mail adres.
     internal_name: Interne naam
-    invalid_credit_card:
+    invalid_credit_card: Ongeldige credit card
     invalid_exchange_variant:
     invalid_payment_provider: Ongeldige betaalprovider.
     invalid_promotion_action: Ongeldige promotieactie.
@@ -721,9 +721,9 @@ nl:
     item_total_rule:
       operators:
         gt: groter dan
-        gte: groter dan of gelijk aan
-        lt:
-        lte:
+        gte: groter of gelijk aan
+        lt: kleiner dan
+        lte: kleiner of gelijk aan
     items_cannot_be_shipped: Items kunnen niet worden verstuurd
     items_in_rmas:
     items_reimbursed:
@@ -1034,7 +1034,7 @@ nl:
     quantity: Hoeveelheid
     quantity_returned: Aantal geretourneerd
     quantity_shipped: Aantal verzonden
-    quick_search:
+    quick_search: Snel zoeken
     rate: Tarief
     reason: Reden
     receive: ontvangen
@@ -1219,7 +1219,7 @@ nl:
       returned:
       shipped:
       void:
-    states: Statussen
+    states: Staten
     states_required: Vereiste statussen
     status: Status
     stock:
